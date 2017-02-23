@@ -1,0 +1,10 @@
+<resources>
+    <string name="pickerview_cancel">Cancel</string>
+    <string name="pickerview_submit">OK</string>
+    <string name="pickerview_year">Year</string>
+    <string name="pickerview_month">Month</string>
+    <string name="pickerview_week">Week Choice</string>
+    <string name="pickerview_time">Hour</string>
+    <string name="pickerview_minter">Minute</string>
+    <string name="app_name">Medicine Manager</string>
+</resources>

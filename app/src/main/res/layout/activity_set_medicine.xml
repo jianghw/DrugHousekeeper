@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/ll_bg"
+              android:orientation="vertical">
+    <include
+        android:id="@+id/include"
+        layout="@layout/topbar_one"/>
+    <RelativeLayout android:id="@+id/rl_set_week"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/dialog_green_selector">
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerInParent="true"
+                      android:orientation="horizontal">
+            <ImageView android:layout_width="27dp"
+                       android:layout_height="27dp"
+                       android:id="@+id/image_time"
+                       android:layout_marginRight="8dp"
+                       android:src="@drawable/set_time_no"/>
+            <TextView android:id="@+id/tv_time"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_vertical"
+                      android:text="@string/reminder_time"
+                      android:textColor="@color/viewfinder_laser"
+                      android:textSize="?attr/fontsize_2"/>
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:layout_centerVertical="true"
+                   android:layout_marginRight="20dp"
+                   android:src="@drawable/ic_me_right_white"/>
+    </RelativeLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="1px"
+                  android:background="@color/btn_Sgreen_normal">
+
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="1px"
+                   android:layout_marginLeft="13dp"
+                   android:layout_marginRight="13dp"
+                   android:background="@color/btn_textColor"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/rl_repeat_week"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/dialog_green_selector">
+
+        <TextView android:id="@+id/tv_repeat"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_centerVertical="true"
+                  android:layout_marginLeft="13dp"
+                  android:text="@string/repeat"
+                  android:textColor="@color/btn_textColor"
+                  android:textSize="?attr/fontsize_2"/>
+        <TextView android:id="@+id/tv_week"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerVertical="true"
+                  android:layout_marginLeft="8dp"
+                  android:layout_toLeftOf="@+id/image_right"
+                  android:text="周一"
+                  android:layout_marginRight="8dp"
+                  android:textColor="@color/btn_textColor"
+                  android:textSize="?attr/fontsize_2"/>
+
+        <ImageView android:id="@+id/image_right"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:layout_centerVertical="true"
+                   android:layout_marginRight="20dp"
+                   android:src="@drawable/ic_me_right_white"/>
+    </RelativeLayout>
+
+    <ListView android:id="@+id/listView_medic"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="8dp"
+              android:dividerHeight="2dp"
+              android:fadeScrollbars="true">
+    </ListView>
+
+</LinearLayout>

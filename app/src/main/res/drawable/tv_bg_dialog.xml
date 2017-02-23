@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 渐变 -->
+    <!--<gradient-->
+    <!--android:endColor="@color/btn_Sgray_pressed"-->
+    <!--android:gradientRadius="50"-->
+    <!--android:startColor="@color/btn_Sgray_normal"-->
+    <!--android:type="radial" />-->
+
+    <!-- 描边 -->
+    <stroke
+    android:width="1dp"
+    android:color="@color/btn_Sgreen_normal" />
+
+    <!-- 圆角 -->
+    <corners android:radius="4dp"/>
+
+    <!-- 间隔  -->
+   <!-- <padding
+        android:bottom="2dp"
+        android:left="2dp"
+        android:right="2dp"
+        android:top="2dp" />-->
+<solid android:color="@color/btn_textColor"/>
+</shape>

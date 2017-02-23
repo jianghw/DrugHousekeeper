@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="isWidgetToSet">
+        <attr name="image_src" format="reference"/>
+        <attr name="text_str" format="string"/>
+        <attr name="text_str_2" format="string"/>
+        <attr name="text_str_3" format="string"/>
+        <attr name="image_src_2" format="reference"/>
+        <attr name="invisible" format="boolean"/>
+        <attr name="text_hid_2" format="string"/>
+        <attr name="text_gone" format="boolean"/>
+        <attr name="text_only" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="setMedicamentInformation">
+        <attr name="image_time" format="string"/>
+        <attr name="tv_time_quantum" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="MedicamentInformation">
+        <attr name="image_time_quantum" format="string"/>
+    </declare-styleable>
+
+    <!--自定义控件slideswitch-->
+    <declare-styleable name="slideswitch">
+        <attr name="themeColor" format="color" />
+        <attr name="isOpen" format="boolean" />
+        <attr name="shape">
+            <enum name="rect" value="1" />
+            <enum name="circle" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <!--PagerSlidingTabStrip-->
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+    </declare-styleable>
+    
+    <declare-styleable name="isFont">
+        <attr name="fontsize_1" format="dimension"/>
+        <attr name="fontsize_2" format="dimension"/>
+        <attr name="fontsize_3" format="dimension"/>
+    </declare-styleable>
+
+</resources>

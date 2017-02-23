@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/ll_bg"
+              android:orientation="vertical">
+    <include
+        android:id="@+id/include"
+        layout="@layout/topbar_one"/>
+
+    <ImageView android:layout_width="80dp"
+               android:layout_height="80dp"
+               android:layout_gravity="center_horizontal"
+               android:layout_marginTop="32dp"
+               android:src="@drawable/logo"/>
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_horizontal"
+                  android:layout_marginTop="4dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/medical_manager"/>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/tv_versionName"
+                  android:text="1.0.0"/>
+    </LinearLayout>
+
+    <TextView style="@style/body_text"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/row_height"
+              android:layout_marginTop="32dp"
+              android:background="@color/btn_textColor"
+              android:gravity="center_vertical"
+              android:paddingLeft="32dp"
+              android:text="@string/rights_reserved"
+              android:textColor="@color/body_text_color"/>
+    <TextView style="@style/body_text"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/row_height"
+              android:layout_marginTop="2dp"
+              android:paddingLeft="32dp"
+              android:background="@color/btn_textColor"
+              android:gravity="center_vertical"
+              android:text="@string/after_sales"
+              android:textColor="@color/body_text_color"/>
+    <TextView style="@style/body_text"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/row_height"
+              android:layout_marginTop="2dp"
+              android:background="@color/btn_textColor"
+              android:gravity="center_vertical"
+              android:paddingLeft="32dp"
+              android:text="@string/technical_support"
+              android:textColor="@color/body_text_color"/>
+
+    <TextView style="@style/body_text"
+              android:id="@+id/textView"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/row_height"
+              android:gravity="center"
+              android:text="@string/privacy_rolicy"
+              android:textColor="#2e3673"/>
+
+</LinearLayout>

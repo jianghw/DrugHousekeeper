@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/ll_bg"
+              android:orientation="vertical">
+    <include
+        android:id="@+id/include"
+        layout="@layout/topbar_one"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:id="@+id/lv_edit"
+                  android:layout_height="200dp"
+                  android:layout_marginTop="32dp"
+                  android:background="@color/btn_textColor">
+
+        <EditText android:id="@+id/edit_content"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@null"
+                  android:hint="@string/problem_description"
+                  android:paddingLeft="8dp"
+                  android:paddingRight="8dp"
+                  android:textSize="@dimen/textView_textSize"
+                  android:textColor="@color/body_text_color"
+                  android:singleLine="false"/>
+    </LinearLayout>
+
+    <EditText android:id="@+id/edit_medicine_company"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/row_height"
+              android:layout_marginTop="24dp"
+              android:background="@color/btn_textColor"
+              android:hint="@string/cellphone_number"
+              android:textSize="?attr/fontsize_2"
+              android:textColor="@color/body_text_color"
+              android:paddingLeft="8dp"
+              android:paddingRight="8dp"/>
+
+    <Button
+        android:id="@+id/btn_ok_setf"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/row_height"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_green_selector"
+        android:text="@string/submit"
+        android:textColor="@color/btn_textColor"
+        android:textSize="@dimen/btn_textSize"/>
+
+</LinearLayout>

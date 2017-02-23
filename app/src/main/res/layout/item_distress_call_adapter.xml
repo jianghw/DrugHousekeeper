@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="@dimen/row_height"
+                  android:background="@drawable/all_row_bg_sele"
+                  android:gravity="center_vertical"
+                  android:orientation="horizontal">
+        <ImageView android:id="@+id/img_head"
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_marginBottom="4dp"
+                   android:layout_marginLeft="8dp"
+                   android:layout_marginTop="4dp"
+                   android:layout_weight="1"
+                   android:padding="8dp"
+                   android:src="@drawable/call_adapter"/>
+        <TextView android:id="@+id/tv_phoneName"
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="2"
+                  android:gravity="center"
+                  android:text="监护人1"
+                  android:textColor="@color/body_text_color"
+                  android:textSize="?attr/fontsize_2"/>
+        <TextView android:id="@+id/tv_name"
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_weight="2"
+                  android:gravity="center"
+                  android:text="监护人1"
+                  android:textColor="@color/tv_bottom_unregist2"
+                  android:textSize="?attr/fontsize_2"/>
+        <TextView android:id="@+id/tv_phone"
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+
+                  android:layout_weight="3.5"
+                  android:gravity="center"
+                  android:text="150-0000-0000"
+                  android:textColor="@color/tv_bottom_unregist2"
+                  android:textSize="?attr/fontsize_2"/>
+
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:layout_centerVertical="true"
+                   android:layout_marginRight="16dp"
+                   android:src="@drawable/ic_me_right"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="1px"
+                  android:id="@+id/lrlayout_imag"
+                  android:background="@color/btn_textColor">
+
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="1px"
+                   android:layout_marginLeft="13dp"
+                   android:layout_marginRight="13dp"
+                   android:background="@color/between_row_bg"/>
+    </LinearLayout>
+</LinearLayout>

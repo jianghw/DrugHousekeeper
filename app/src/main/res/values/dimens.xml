@@ -1,0 +1,21 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!--标题栏的字体-->
+    <dimen name="title_textSize">22sp</dimen>
+    <!--按钮的字体-->
+    <dimen name="btn_textSize">20sp</dimen>
+    <!--普通文本的字体-->
+    <dimen name="textView_textSize">16sp</dimen>
+    <!--s输入框的字体-->
+    <dimen name="et_hint">14sp</dimen>
+    <!--星期显示字体-->
+    <dimen name="et_hint_week">13sp</dimen>
+    <!--actionbar 高-->
+    <dimen name="action_bar_height">50dp</dimen>
+    <!--行高-->
+    <dimen name="row_height">48dp</dimen>
+
+</resources>

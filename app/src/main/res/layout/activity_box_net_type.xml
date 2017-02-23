@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:background="@color/btn_textColor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/topbar_one" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/include"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical">
+
+        <com.cjy.flb.customView.OsiEditText
+            android:id="@+id/et_addFlb_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"/>
+
+        <com.cjy.flb.customView.OsiEditText
+            android:id="@+id/et_addFlb_SN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginTop="10dp"
+        android:text="@string/tv_verify_prompt"
+        android:textColor="@color/tv_hint"
+        android:paddingLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="@dimen/et_hint"/>
+
+    <Button
+        android:id="@+id/btn_verity_next"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/row_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/btn_green_selector"
+        android:text="@string/next"
+        android:textColor="@color/btn_textColor"
+        android:textSize="@dimen/btn_textSize"/>
+
+   <!-- <RelativeLayout
+        android:id="@+id/rl_welcome_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_box_net_selector">
+
+        <RelativeLayout
+            android:id="@+id/rl_patient"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/row_height"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/bg_box_net_wifi">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="WIFI网络版"
+                android:textColor="@color/btn_green_normal"
+                android:textSize="?attr/fontsize_2"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/ic_me_right"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/img_line"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/rl_patient"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/btn_green_normal"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_director"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/row_height"
+            android:layout_below="@+id/img_line"
+            android:background="@drawable/bg_box_net_wifi">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="GSM移动网络版"
+                android:textColor="@color/btn_green_normal"
+                android:textSize="?attr/fontsize_2"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/ic_me_right"/>
+        </RelativeLayout>
+    </RelativeLayout>-->
+</RelativeLayout>

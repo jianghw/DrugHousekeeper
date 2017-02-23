@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.cjy.flb.activity.RegistActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/topbar_one"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_login"
+        android:layout_below="@+id/include"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical">
+
+
+      <!--  <com.cjy.flb.customView.OsiEditSpinnerText
+            android:id="@+id/et_regist_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/> -->
+        <com.cjy.flb.customView.OsiEditText
+            android:id="@+id/et_regist_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.cjy.flb.customView.OsiEditText
+            android:id="@+id/et_regist_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <com.cjy.flb.customView.OsiEditText
+            android:id="@+id/et_regist_password2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView android:id="@+id/tv_prompt"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btn_regist"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/row_height"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_green_selector"
+            android:text="@string/register"
+            android:textColor="@color/btn_textColor"
+            android:textSize="@dimen/btn_textSize"/>
+        <TextView
+            android:id="@+id/tv_regist_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="@string/email_registered"
+            android:textColor="@color/tv_bottom_unregist"
+            android:textSize="@dimen/textView_textSize"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_regist_already"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/already_registered"
+        android:textColor="@color/tv_bottom_unregist"
+        android:textSize="@dimen/textView_textSize"/>
+
+</RelativeLayout>

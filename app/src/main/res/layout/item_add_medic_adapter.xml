@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout
+    android:id="@+id/swipe"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--先写隐藏的那一层布局  -->
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="@dimen/row_height"
+        android:background="#FF5534"
+        android:gravity="center"
+        android:tag="Bottom2">
+        <ImageView
+            android:id="@+id/trash"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:padding="4dp"
+            android:src="@drawable/item_trash"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/row_height"
+        android:background="@drawable/all_row_bg_sele"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <TextView android:id="@+id/tv_position"
+                  android:layout_width="0dp"
+                  android:layout_height="40dp"
+                  android:layout_weight="1.5"
+                  android:gravity="center"
+                  android:textColor="@color/body_text_color"
+                  android:textSize="?attr/fontsize_2"/>
+        <TextView android:id="@+id/tv_body"
+                  android:layout_width="0dp"
+                  android:layout_height="40dp"
+                  android:layout_weight="6"
+                  android:gravity="center_vertical|left"
+                  android:textColor="@color/body_text_color"
+                  android:textSize="?attr/fontsize_2"/>
+        <TextView android:id="@+id/tv_count"
+                  android:layout_width="0dp"
+                  android:layout_height="40dp"
+                  android:layout_weight="1"
+                  android:gravity="center"
+                  android:textColor="@color/body_text_color"
+                  android:textSize="?attr/fontsize_2"/>
+        <TextView android:id="@+id/tv_unit"
+                  android:layout_width="0dp"
+                  android:layout_height="40dp"
+                  android:layout_weight="2"
+                  android:gravity="center_vertical|left"
+                  android:text="@string/medicine_unit_danwei"
+                  android:textColor="@color/body_text_color"
+                  android:textSize="?attr/fontsize_2"/>
+    </LinearLayout>
+</com.daimajia.swipe.SwipeLayout>
+

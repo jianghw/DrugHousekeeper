@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/ll_bg"
+              android:orientation="vertical">
+    <include
+        android:id="@+id/include"
+        layout="@layout/topbar_one"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:id="@+id/lv_edit"
+                  android:layout_height="150dp"
+                  android:layout_marginTop="32dp"
+                  android:background="@color/btn_textColor">
+
+        <EditText android:id="@+id/edit_content"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@null"
+                  android:hint="@string/problem_description"
+                  android:paddingLeft="8dp"
+                  android:paddingRight="8dp"
+                  android:textSize="@dimen/textView_textSize"
+                  android:textColor="@color/body_text_color"
+                  android:singleLine="false"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:id="@+id/lv_text_name"
+                  android:layout_height="@dimen/row_height"
+                  android:layout_marginTop="24dp"
+                  android:background="@color/btn_textColor"
+                  android:gravity="center_vertical"
+                  android:orientation="horizontal">
+        <TextView android:id="@+id/tv_medicine_name"
+                  android:layout_width="0dp"
+                  android:layout_height="match_parent"
+                  android:layout_marginLeft="8dp"
+                  android:layout_weight="8"
+                  android:gravity="center_vertical"
+                  android:text="@string/medicine_name"
+                  android:textSize="?attr/fontsize_2"/>
+        <ImageView android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_marginBottom="4dp"
+                   android:layout_marginRight="8dp"
+                   android:layout_marginTop="8dp"
+                   android:layout_weight="1"
+                   android:padding="6dp"
+                   android:src="@drawable/setf_spinner"/>
+
+    </LinearLayout>
+
+    <TextView android:id="@+id/edit_medicine_company"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/row_height"
+              android:layout_marginTop="2dp"
+              android:background="@color/btn_textColor"
+              android:hint="@string/pharmaceutical"
+              android:gravity="center|left"
+              android:textSize="?attr/fontsize_2"
+              android:textColor="@color/body_text_color"
+              android:paddingLeft="8dp"
+              android:paddingRight="8dp"/>
+
+    <Button
+        android:id="@+id/btn_ok_setf"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/row_height"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_green_selector"
+        android:text="@string/submit"
+        android:textColor="@color/btn_textColor"
+        android:textSize="@dimen/btn_textSize"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginBottom="8dp"
+              android:layout_marginTop="24dp"
+              android:paddingLeft="8dp"
+              android:paddingRight="8dp"
+              android:text="@string/disclaimer"
+              android:textColor="@color/body_text_color"
+              android:textSize="?attr/fontsize_2"
+              android:textStyle="bold"/>
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingLeft="8dp"
+              android:paddingRight="8dp"
+              android:text="@string/disclaimer_content"
+              android:textColor="@color/tv_bottom_unregist"
+              android:textSize="?attr/fontsize_1"/>
+</LinearLayout>

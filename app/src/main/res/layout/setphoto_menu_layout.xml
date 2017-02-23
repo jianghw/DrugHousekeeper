@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_take_photo"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/btn_green_selector"
+        android:gravity="center"
+        android:text="@string/take_phone"
+        android:textColor="@color/btn_textColor"
+        android:textSize="@dimen/btn_textSize" />
+
+    <Button
+        android:id="@+id/btn_check_from_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:background="@color/et_hint"
+        android:layout_marginBottom="10dp"
+        android:text="@string/album"
+        android:textSize="@dimen/btn_textSize" />
+
+</LinearLayout>

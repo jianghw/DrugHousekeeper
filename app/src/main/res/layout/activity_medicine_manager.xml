@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/ll_bg"
+                android:orientation="vertical">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/topbar_one"/>
+
+    <ListView android:id="@+id/listView"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/include"
+              android:layout_marginTop="8dp"
+
+              android:divider="@null"
+              android:dividerHeight="2dp"
+              android:fadeScrollbars="true"/>
+
+    <!--<Button android:id="@+id/btn_delete"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/row_height"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:background="@drawable/btn_green_selector"-->
+            <!--android:text="@string/delete"-->
+            <!--android:textColor="@color/btn_textColor"-->
+            <!--android:textSize="@dimen/btn_textSize"/>-->
+</RelativeLayout>

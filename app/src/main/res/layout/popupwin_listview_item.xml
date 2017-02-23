@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal">
+    <TextView android:id="@+id/textView"
+              android:layout_width="wrap_content"
+              android:layout_height="@dimen/row_height"
+              android:background="@drawable/ic_item_top"
+              android:gravity="center|top"
+              android:paddingTop="10dp"
+              android:singleLine="true"
+              android:alpha="0.6"
+              android:text="删除"
+              android:textColor="@color/btn_textColor"
+              android:textSize="16sp"/>
+
+</LinearLayout>

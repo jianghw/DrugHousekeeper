@@ -1,0 +1,230 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/ll_bg"
+              android:orientation="vertical">
+    <include
+        android:id="@+id/include"
+        layout="@layout/topbar_one"/>
+
+    <RelativeLayout android:id="@+id/rl_set_week"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/dialog_green_selector">
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerInParent="true"
+                      android:orientation="horizontal">
+            <ImageView android:layout_width="40dp"
+                       android:layout_height="40dp"
+                       android:layout_marginRight="8dp"
+                       android:src="@drawable/setf_day_white"/>
+            <TextView android:id="@+id/tv_week"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center_vertical"
+                      android:text="周一"
+                      android:textColor="@color/btn_textColor"
+                      android:textSize="?attr/fontsize_3"/>
+        </LinearLayout>
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentRight="true"
+                   android:layout_centerVertical="true"
+                   android:layout_marginRight="20dp"
+                   android:src="@drawable/ic_me_right_white"/>
+    </RelativeLayout>
+
+    <LinearLayout android:id="@+id/lrlay_1"
+                  android:layout_width="match_parent"
+                  android:layout_height="@dimen/row_height"
+                  android:layout_marginTop="8dp"
+                  android:background="@drawable/all_row_bg_sele"
+                  android:clickable="true"
+                  android:gravity="center_vertical"
+                  android:orientation="horizontal">
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="left|center_vertical"
+                   android:layout_marginLeft="16dp"
+                   android:src="@drawable/setf_morning_1"/>
+        <TextView android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_vertical"
+                  android:layout_marginLeft="16dp"
+                  android:gravity="center"
+                  android:layout_weight="1"
+                  android:text="@string/A.M"
+                  android:textColor="@color/body_text_color"
+                  android:textSize="?attr/fontsize_2"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="2"
+            android:text="(00:00-10:59)"
+            android:textColor="@color/body_text_color"
+            android:textSize="?attr/fontsize_2"/>
+        <CheckBox android:id="@+id/cbox_m"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="right|center_vertical"
+                  android:layout_marginRight="16dp"
+                  android:background="@drawable/checkbox_medic_manager"
+                  android:button="@null"
+                  android:checked="true"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="1px"
+                  android:background="@color/btn_textColor">
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="1px"
+                   android:layout_marginLeft="13dp"
+                   android:layout_marginRight="13dp"
+                   android:background="@color/between_row_bg"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/lrlay_2"
+                  android:layout_width="match_parent"
+                  android:layout_height="@dimen/row_height"
+                  android:background="@drawable/all_row_bg_sele"
+                  android:clickable="true"
+                  android:gravity="center_vertical"
+                  android:orientation="horizontal">
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="left|center_vertical"
+                   android:layout_marginLeft="16dp"
+                   android:src="@drawable/setf_nooing_1"/>
+        <TextView android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_vertical"
+                  android:layout_marginLeft="16dp"
+                  android:gravity="center"
+                  android:layout_weight="1"
+                  android:text="@string/Noon"
+                  android:textColor="@color/body_text_color"
+                  android:textSize="?attr/fontsize_2"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="2"
+            android:text="(11:00-13:59)"
+            android:textColor="@color/body_text_color"
+            android:textSize="?attr/fontsize_2"/>
+        <CheckBox android:id="@+id/cbox_n"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="right|center_vertical"
+                  android:layout_marginRight="16dp"
+                  android:background="@drawable/checkbox_medic_manager"
+                  android:button="@null"
+                  android:checked="true"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="1px"
+                  android:background="@color/btn_textColor">
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="1px"
+                   android:layout_marginLeft="13dp"
+                   android:layout_marginRight="13dp"
+                   android:background="@color/between_row_bg"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/lrlay_3"
+                  android:layout_width="match_parent"
+                  android:layout_height="@dimen/row_height"
+                  android:background="@drawable/all_row_bg_sele"
+                  android:clickable="true"
+                  android:gravity="center_vertical"
+                  android:orientation="horizontal">
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="left|center_vertical"
+                   android:layout_marginLeft="16dp"
+                   android:src="@drawable/setf_afternoon_1"/>
+        <TextView android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_vertical"
+                  android:layout_marginLeft="16dp"
+                  android:gravity="center"
+                  android:layout_weight="1"
+                  android:text="@string/P.M"
+                  android:textColor="@color/body_text_color"
+                  android:textSize="?attr/fontsize_2"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="2"
+            android:text="(14:00-18:59)"
+            android:textColor="@color/body_text_color"
+            android:textSize="?attr/fontsize_2"/>
+        <CheckBox android:id="@+id/cbox_a"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="right|center_vertical"
+                  android:layout_marginRight="16dp"
+                  android:background="@drawable/checkbox_medic_manager"
+                  android:button="@null"
+                  android:checked="true"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="1px"
+                  android:background="@color/btn_textColor">
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="1px"
+                   android:layout_marginLeft="13dp"
+                   android:layout_marginRight="13dp"
+                   android:background="@color/between_row_bg"/>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/lrlay_4"
+                  android:layout_width="match_parent"
+                  android:layout_height="@dimen/row_height"
+                  android:background="@drawable/all_row_bg_sele"
+                  android:clickable="true"
+                  android:gravity="center_vertical"
+                  android:orientation="horizontal">
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="left|center_vertical"
+                   android:layout_marginLeft="16dp"
+                   android:src="@drawable/setf_eveing_1"/>
+        <TextView android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_vertical"
+                  android:layout_marginLeft="16dp"
+                  android:layout_weight="1"
+                  android:gravity="center"
+                  android:text="@string/bed_time"
+                  android:textColor="@color/body_text_color"
+                  android:textSize="?attr/fontsize_2"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="2"
+            android:text="(19:00-23:59)"
+            android:textColor="@color/body_text_color"
+            android:textSize="?attr/fontsize_2"/>
+        <CheckBox android:id="@+id/cbox_e"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="right|center_vertical"
+                  android:layout_marginRight="16dp"
+                  android:background="@drawable/checkbox_medic_manager"
+                  android:button="@null"
+                  android:checked="true"/>
+    </LinearLayout>
+</LinearLayout>

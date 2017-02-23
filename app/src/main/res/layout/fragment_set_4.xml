@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout
+    android:id="@+id/srl_refresh"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapp="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_set_week"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/dialog_green_selector">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/setf_day"/>
+
+                <TextView
+                    android:id="@+id/tv_week"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/today"
+                    android:textColor="@color/btn_textColor"
+                    android:textSize="?attr/fontsize_3"/>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/ic_me_right_white"/>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+        <com.cjy.flb.customView.MedicamentInformation
+            android:id="@+id/mi_morn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="1dp"
+            mapp:image_time_quantum="MORN"/>
+
+        <com.cjy.flb.customView.MedicamentInformation
+            android:id="@+id/mi_noon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="1dp"
+            mapp:image_time_quantum="NOON"/>
+
+        <com.cjy.flb.customView.MedicamentInformation
+            android:id="@+id/mi_afternoon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="1dp"
+            mapp:image_time_quantum="AFTERNOON"/>
+
+        <com.cjy.flb.customView.MedicamentInformation
+            android:id="@+id/mi_night"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="1dp"
+            mapp:image_time_quantum="NIGHT"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.cjy.flb.activity.RegistActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/topbar_one"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_login"
+        android:layout_below="@+id/include"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical">
+
+        <com.cjy.flb.customView.OsiEditText
+            android:id="@+id/et_regist_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.cjy.flb.customView.OsiEditTextButton
+            android:id="@+id/et_regist_auth_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.cjy.flb.customView.OsiEditText
+            android:id="@+id/et_regist_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/btn_regist"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/row_height"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/btn_green_selector"
+            android:text="@string/submit"
+            android:textColor="@color/btn_textColor"
+            android:textSize="@dimen/btn_textSize"/>
+        <TextView
+            android:id="@+id/tv_regist_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="@string/email_reback"
+            android:textColor="@color/tv_bottom_unregist"
+            android:textSize="@dimen/textView_textSize"/>
+    </LinearLayout>
+
+</RelativeLayout>

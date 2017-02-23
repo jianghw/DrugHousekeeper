@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:background="@color/toolbarPopup_bg_color"
+              android:orientation="vertical">
+    <LinearLayout android:id="@+id/ly_add_flb"
+                  android:layout_width="match_parent"
+                  android:background="@drawable/bg_actionbar_back_select_popu"
+                  android:layout_height="@dimen/row_height"
+                  android:gravity="center_vertical">
+        <ImageView android:layout_width="32dp"
+                   android:layout_height="32dp"
+                   android:layout_marginLeft="16dp"
+                   android:layout_marginRight="8dp"
+                   android:src="@drawable/toolbar_move_add"/>
+        <TextView style="@style/body_text"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="8dp"
+                  android:layout_marginRight="16dp"
+                  android:text="@string/add_medicine_box"
+                  android:textColor="@android:color/white"/>
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="1px"
+               android:background="@color/toolbarPopup_bg_color2"/>
+    <LinearLayout android:id="@+id/ly_choose_flb"
+                  android:layout_width="match_parent"
+                  android:background="@drawable/bg_actionbar_back_select_popu"
+                  android:layout_height="@dimen/row_height"
+                  android:gravity="center_vertical">
+        <ImageView android:layout_width="32dp"
+                   android:layout_height="32dp"
+                   android:layout_marginLeft="16dp"
+                   android:layout_marginRight="8dp"
+                   android:src="@drawable/toolbar_more_handover"/>
+        <TextView style="@style/body_text"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="8dp"
+                  android:layout_marginRight="16dp"
+                  android:text="@string/switch_medicine_box"
+                  android:textColor="@android:color/white"/>
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="1px"
+               android:background="@color/toolbarPopup_bg_color2"/>
+    <LinearLayout android:id="@+id/ly_call_flb"
+                  android:layout_width="match_parent"
+                  android:background="@drawable/bg_actionbar_back_select_popu"
+                  android:layout_height="@dimen/row_height"
+                  android:gravity="center_vertical">
+        <ImageView android:layout_width="32dp"
+                   android:layout_height="32dp"
+                   android:layout_marginLeft="16dp"
+                   android:layout_marginRight="8dp"
+                   android:src="@drawable/toolbar_more_call"/>
+        <TextView style="@style/body_text"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="8dp"
+                  android:layout_marginRight="16dp"
+                  android:text="@string/emergency_call"
+                  android:textColor="@android:color/white"/>
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="1px"
+               android:background="@color/toolbarPopup_bg_color2"/>
+    <LinearLayout android:id="@+id/ly_alter_flb"
+                  android:layout_width="match_parent"
+                  android:background="@drawable/bg_actionbar_back_select_popu"
+                  android:layout_height="@dimen/row_height"
+                  android:gravity="center_vertical">
+        <ImageView android:layout_width="32dp"
+                   android:layout_height="32dp"
+                   android:layout_marginLeft="16dp"
+                   android:layout_marginRight="8dp"
+                   android:src="@drawable/toolbar_more_alter"/>
+        <TextView style="@style/body_text"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="8dp"
+                  android:layout_marginRight="16dp"
+                  android:text="@string/modify_information"
+                  android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+
+</LinearLayout>

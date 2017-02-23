@@ -1,0 +1,451 @@
+<resources>
+    <!--启动界面-->
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="on_server">未检测到网络,请检查WiFi或移动数据是否开启,程序将自动退出…</string>
+    <!--登陆界面-->
+    <string name="user_name">账户</string>
+    <string name="auth_code">验证码</string>
+    <string name="password">密码</string>
+    <string name="new_password">新密码</string>
+    <string name="login_activity">
+        <u>注册账号</u>
+    </string>
+    <string name="forget_password"><u>忘记密码?</u></string>
+    <!--用户注册-->
+    <string name="user_registered">用户注册</string>
+    <string name="phone_registered">手机注册</string>
+    <string name="input_auth_code">填写验证码</string>
+
+    <string name="get_auth_code">获取验证码</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="confirm_pone">请输入用户名或手机号</string>
+    <string name="already_registered">已经注册</string>
+    <string name="email_registered">E-mail注册</string>
+    <string name="email_reback">E-mail找回</string>
+    <string name="regist_ac_support">支持英文和数字，不少于4位</string>
+    <string name="regist_ac_support_2">支持英文和数字，不少于6位</string>
+    <string name="regist_ac_email">电子邮箱</string>
+    <string name="regist_ac_phone">你的手机号码</string>
+    <string name="regist_prompt">点击下面的\"注册\"按钮，即表示您同意药管家《使用条款和隐私政策》</string>
+    <!--找回密码-->
+    <string name="get_back_password">找回密码</string>
+    <string name="get_pass_activity">
+        <u>提交完成后请登录E-mail重新设置密码</u>
+    </string>
+    <string name="submit">提交</string>
+    <!--绑定药盒-->
+    <string name="add_medicine_box">添加药盒</string>
+    <string name="switch_medicine_box">切换药盒</string>
+    <string name="add_medicine_ac">点击\"下一步\"后请长按药盒背部的AT键嘀声后松开</string>
+    <string name="next">下一步</string>
+    <string name="retry">重试</string>
+    <string name="tv_qr">二维码扫描</string>
+    <string name="tv_qrcode_msg">请扫描药盒底部铭牌上的二维码</string>
+    <string name="dialog_message">该账号已存在绑定的药盒，是否继续绑定新药盒。</string>
+    <string name="switch_the_box">你确定要切换当前药盒吗？</string>
+    <!--资料完善-->
+    <string name="complete_information">资料完善</string>
+    <string name="modify_information">修改资料</string>
+    <string name="box_id">药盒ID</string>
+    <string name="box_user_name">药盒使用者姓名</string>
+    <string name="box_user_phone">药盒使用者电话</string>
+    <string name="date_of_birth">出生年月</string>
+    <string name="gender">性别</string>
+    <string name="tv_man">男</string>
+    <string name="tv_woman">女</string>
+    <string name="guardian_1">监护人1</string>
+    <string name="guardian_2">监护人2</string>
+    <string name="doctor">医生</string>
+    <string name="entry">进入药管家</string>
+    <string name="necessary">必需填写</string>
+    <string name="for_quick_call">用于快捷电话呼叫</string>
+    <string name="recommend">建议填写用于快捷电话呼叫</string>
+    <string name="take_phone">拍照</string>
+    <string name="album">相册</string>
+    <string name="photoPickerNotFoundText">手机中无可用的图片</string>
+    <string name="give_up_binding">放弃绑定当前药盒</string>
+    <string name="continue_up">继续</string>
+    <string name="give_up">放弃</string>
+    <string name="pickerview_year">年</string>
+    <string name="pickerview_month">月</string>
+    <!--主界面MainActivity-->
+    <string name="medical_manager">药管家</string>
+    <string name="more">更多</string>
+    <string name="setting">设定</string>
+    <string name="record">记录</string>
+    <string name="me">我的</string>
+    <!--主界面FlbFragment-->
+    <string name="next_medicine_time">距离下次服药</string>
+    <string name="A.M">上午</string>
+    <string name="Noon">中午</string>
+    <string name="P.M">下午</string>
+    <string name="bed_time">睡前</string>
+    <string name="box_online">药盒在线</string>
+    <string name="box_offline">药盒离线</string>
+    <!--设定界面setFragment-->
+    <string name="set_time">--:--</string>
+    <string name="medicine_unit_danwei">PCS</string>
+    <string name="medic_times">用药次数</string>
+    <string name="date_medic_times">日期和用药次数</string>
+    <string name="repeat">重复</string>
+    <string name="reminder_time">提醒时间</string>
+    <string name="medicine">药物</string>
+    <string name="add_medicine">添加药物</string>
+    <string name="added">已添药物</string>
+    <string name="important_notification">重要提示</string>
+    <string name="important_message">未选中时间段数据将被清空?</string>
+    <string name="btn_ok">确定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="add">添加药物</string>
+    <string name="fill_medicine_name">请使用关键词检索药物名称</string>
+    <string name="dosage">单次药物用量</string>
+    <string name="cur_medic_repeat">将当前药物重复</string>
+
+    <string name="set_medic_dialog">请填写正确的药物信息:\n
+        1.用于为您建立长期准确的服药管理.\n
+        2.在您有需要时为医务人员提供您准确的用药情况.</string>
+
+    <!--记录界面noteFragment-->
+    <string name="week">周</string>
+    <string name="month">月</string>
+    <string name="abnormal_days_records">异常天数记录:有</string>
+    <string name="abnormal_records">日未按时服药</string>
+    <string name="normal_medication">正常服药</string>
+    <string name="abnormal_medication">服药异常</string>
+    <string name="no_setting">未到设定的服药时间</string>
+    <string name="cjy_gwang">
+        <u>更多记录详情请登陆:采集云官网</u>
+    </string>
+    <!--我界面meFragment-->
+    <string name="account">账号</string>
+    <string name="box_management">药盒管理</string>
+    <string name="message_notification">消息通知</string>
+    <string name="language_selection">语言选择</string>
+    <string name="font">字体大小</string>
+    <string name="operational_guidelines">操作指南</string>
+    <string name="check_for_updates">检查更新</string>
+    <string name="medicine_hamful_feedback">药物不良反馈</string>
+    <string name="procedure_feedback">程序意见反馈</string>
+    <string name="my_package">我的套餐</string>
+    <string name="about_us">关于我们</string>
+    <string name="common_use">通用</string>
+
+    <string name="exit">退出登录</string>
+    <string name="edit">编辑</string>
+    <string name="finish">完成</string>
+    <string name="receiving_message">接收新消息通知</string>
+    <string name="sound">声音</string>
+    <string name="vibrate">振动</string>
+    <string name="following_system">跟随系统</string>
+    <string name="chinese">简体中文</string>
+    <string name="big">大</string>
+    <string name="normal">中</string>
+    <string name="small">小</string>
+    <string name="latest_version">当前已是最新版本!</string>
+    <string name="downloading">正在下载…</string>
+    <string name="problem_description">问题说明：请在此处输入问题描述</string>
+    <string name="medicine_name">药物名称</string>
+    <string name="pharmaceutical">制药公司/厂商</string>
+    <string name="disclaimer">免责声明:</string>
+    <string name="disclaimer_content">
+        对于您反馈的问题我们非常重视！我们会将收集到的药物不良信息反馈给相关的制药公司或者厂商。但我们不保证您反馈的问题会得到解决!
+    </string>
+    <string name="cellphone_number">E-mail或者手机号码</string>
+    <string name="rights_reserved">深圳采集云数据科技有限公司版权所有</string>
+    <string name="privacy_rolicy">使用条款和隐私政策</string>
+    <string name="after_sales">售后服务: 4006–12320–7</string>
+    <string name="technical_support">技术支持: 0755–21507199</string>
+
+    <string name="emergency_call">应急呼叫</string>
+    <string name="call">呼叫</string>
+    <string name="notification_message">通知消息</string>
+    <string name="box_notification_message">我的健康我管理</string>
+    <string name="overlook">忽略</string>
+    <string name="time_over">未按时服药已超过</string>
+    <string name="taking_time">服药时间到</string>
+    <string name="minute">分钟</string>
+
+    <string name="text_disclaimer">
+        <b>使用条款：</b>\n
+        欢迎使用药管家APP平台，药管家APP是北京福乐云检测科技有限公司面向客户的新一代智能移动终端应用服务工具，提供包括但不限于在线药物管理、服药提醒，药管家客户在安装注册本APP后，本协议即构成对双方有约束力的法律文件。
+        本协议是您与药管家客户端之间就药管家客户端服务等相关事宜所订立的契约，请您在注册之前充分阅读、理解本注册协议的全部内容，如果您不同意本协议的条款，请勿使用药管家APP或者下载该软件更新。，一旦您接受本协议，即表示您与北京福乐云检测科技有限公司已达成协议并同意接受本协议的全部约定。此特别提醒用户认真阅读、充分理解————本协议中各条款，包括免除或者限制药管家APP平台责任的免责条款及对用户的权利限制条款。\n
+        提示内容\n
+        1.药管家APP平台提供的各项服务的运作权归北京福乐云检测科技有限公司拥有。用户同意所有注册协议并完成注册程序，才能成为药管家APP平台的正式用户。用户确认：本协议条款是处理双方权利义务的契约，始终有效，法律另有强制性规定或双方另有特别约定的，依其规定。\n
+        2.用户点击“注册”按钮并完成注册程序的，表示用户同意本协议相关内容或条款,或以任何行为实际使用、享受本站的服务，即视为用户确认自己具有享受本站服务、下单购物等相应的权利能力和行为能力，能够独立承担法律责任。如用户不同意本服务条款的条件，则不能注册成为药管家APP平台用户，但可以以“游客”身份登录药管家客户端并且只能享用“药物提醒”的服务。\n
+        3、您授权北京福乐云检测科技有限公司，除法律另有规定之外，将您提供给北京福乐云检测科技有限公司的信息、享受北京福乐云检测科技有限公司服务产生的信息（包括本协议签署之前提供和产生的信息）以及北京福乐云检测科技有限公司根据本条约定查询、收集的信息，用于北京福乐云检测科技有限公司及其因服务必要委托的合作伙伴为您提供服务、推荐产品、开展市场调查与信息数据分析。您授权北京福乐云检测科技有限公司，除法律另有规定之外，基于为您提供更优质服务和产品的目的，向北京福乐云检测科技有限公司因服务必要开展合作的伙伴提供、查询、收集您的信息。为确保您信息的安全，北京福乐云检测科技有限公司及其合作伙伴对上述信息负有保密义务，并采取各种措施保证信息安全。本条款自本协议签署时生效，具有独立法律效力，不受合同成立与否及效力状态变化的影响。本条所称“北京福乐云检测科技有限公司”是指北京福乐云检测科技有限公司及其直接或间接控股的公司，以及北京福乐云检测科技有限公司直接或间接作为其单一最大股东的公司。\n
+        用户使用规则\n
+        1.注册年龄\n
+        药管家客户端提供的服务仅供依法能够且有权订立具有法律约束力合约的自然人、法人及非法人组织使用。因此，用户应为具备完全民事行为能力的自然人，或依法成立、存续的法人或非法人组织。用户违反本项条件，本站可随时、全权决定拒绝向其提供服务，若因此给药管家APP平台或第三方造成损失，用户承担全部赔偿责任。如果您在18周岁以下，您只能在父母或监护人的监护参与下才能使用本站。父母和监护人也应提醒未成年人在互联网上与陌生人交谈可能产生危险，并采取适当的预防措施保护儿童，包括监督其对本服务的使用。如欲使用本服务，您不能是被中国法律禁止取得本服务的人。接受本协议即表示您声明您理解并同意上述规定。\n
+        2.注册账户\n
+        2.1
+        药管家APP平台运用自己的操作系统通过网络为用户提供各项网络服务。用户在完全同意本协议及本站规定的情况下，方有权使用本站提供的相关服务。同时，用户必须自行准备如下设备和承担如下开支：上网设备，包括并不限于手机或者其他上网终端、调制解调器及其他必备的上网装置；个人上网所支付的与此服务有关的各项费用，包括并不限于网络接入费、上网设备租用费、手机流量费等。\n
+        2.2
+        药管家APP平台帐号（即药管家APP平台用户ID）的所有权归北京福乐云检测科技有限公司，用户注册成功后，将产生用户名和密码等账户信息，您可以根据本客户端规定改变您的密码。用户应谨慎合理的保存、使用其用户名和密码。用户完成注册申请手续后，获得药管家APP平台帐号的使用权。用户应自行诚信地向药管家客户端提供注册资料，并同意其提供的注册资料及时、详尽、准确、完整、合法有效。所有原始键入的资料将引用为注册资料，用户注册资料如有变动的，应及时更新其注册资料。如果用户提供的注册资料不合法、不真实、不准确、不详尽的，用户需独自承担因此引起的相应责任及后果，并且药管家客户端保留终止用户使用药管家APP平台的各项服务的权利\n
+        2.3
+        用户不应将其帐号、密码转让、出售或出借予他人使用，如果北京福乐云检测科技有限公司发现使用者并非帐号注册者本人，北京福乐云检测科技有限公司有权停止继续服务。如用户发现其帐号遭他人非法使用，应立即通知药管家客户端。因黑客行为或用户违反本协议规定导致帐号、密码遭他人非法使用的，由用户本人承担因此导致的损失和一切法律责任，北京福乐云检测科技有限公司不承担任何责任。\n
+        2.4
+        用户在本站进行浏览、下单购物等活动时，涉及用户真实姓名/名称、通信地址、联系电话、电子邮箱等隐私信息的，本站将予以严格保密，除非得到用户的授权或法律另有规定，本站不会向外界披露用户隐私信息。\n
+        2.5
+        用户在享用药管家客户端各项服务的同时，同意接受北京福乐云检测科技有限公司提供的各类信息服务，这些信息所涉及的内容包括以文字、图片、照片、音视频等形式表现的各类订单信息、宣传信息、促销信息、商业信息以及北京福乐云检测科技有限公司的合作伙伴信息，该类信息的提供方式包括但不限于电子邮件、短信。用户在药管家APP平台注册或实际使用药管家APP平台提供的服务，即表明用户已同意接受此项服务。若用户不希望接收来自药管家APP平台的邮件，则可通过回复邮件的方式按照提示自助完成退订；若用户不希望接收来自药管家APP平台的短信，则可联系药管家客户端协助处理。\n
+        2.6
+        禁止未经授权的任何商业目的的注册和购买。药管家APP平台鼓励以使用为目的购买北京福乐云检测科技有限公司的产品，但禁止一切商业目的和商业行为，若用户利用药管家APP平台提供的的服务、产品、活动从事任何以未经授权商业为目的的行为，北京福乐云检测科技有限公司有权采取取消订单、冻结或关闭账户、永久禁止注册等措施，给北京福乐云检测科技有限公司造成损失的，用户承担赔偿责任，构成犯罪的，北京福乐云检测科技有限公司有权提请国家主管部门追究其行政和刑事责任。\n
+        3.除非法律规定或者药管家客户端明确承诺，药管家客户端将不对所提供的商品的适用性或满足用户特定需求及目的进行任何明示或者默示的担保。请在购买前确认自身的需求，同时仔细阅读产品说明。\n
+        4.药管家客户端保留在中华人民共和国大陆地区法施行之法律允许的范围内独自决定拒绝服务、关闭用户账户、清除或编辑内容或取消订单的权利。\n
+        5.用户依法言行义务\n
+        本协议依据国家相关法律法规规章制定，用户在使用药管家客户端提供的服务时，必须遵守中华人民共和国相关法律法规的规定，用户应同意将不会利用本服务进行任何违法或不正当的活动，包括但不限于下列行为∶\n
+        （1）上传、下载、展示、张贴、传播或以其它方式传送含有下列内容之一的信息：\n
+        ①反对宪法所确定的基本原则的；\n
+        ②危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的；\n
+        ③损害国家荣誉和利益的；\n
+        ④煽动民族仇恨、民族歧视、破坏民族团结的；\n
+        ⑤破坏国家宗教政策，宣扬邪教和封建迷信的；\n
+        ⑥散布谣言，扰乱社会秩序，破坏社会稳定的；\n
+        ⑦散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的；\n
+        ⑧侮辱或者诽谤他人，侵害他人合法权利的；\n
+        ⑨含有虚假、有害、胁迫、侵害他人隐私、骚扰、侵害、中伤、粗俗、猥亵、或其它道德上令人反感的内容；\n
+        ⑩含有中国法律、法规、规章、条例以及任何具有法律效力之规范所限制或禁止的其它内容的；\n
+        （2）不得为任何非法目的而使用药管家APP平台服务系统；\n
+        （3）不得干扰本客户端的正常运转，不得侵入本客户端及国家计算机信息系统；\n
+        （4）不得发布任何侵犯他人著作权、商标权等知识产权或合法权利的内容；用户应关注并遵守本客户端不时公布或修改的各类合法规则规定。本客户端保有删除各类不符合法律政策或不真实的信息内容而无须通知用户的权利。若用户未遵守以上规定的，本客户端有权作出独立判断并采取暂停或关闭用户帐号等措施。用户须对自己在网上的言论和行为承担法律责任；\n
+        （5）绝不允许有未经允许的盈利性的组织或个人的广告；\n
+        （6）任何不符合国家医疗卫生相关规定的言词；\n
+        （7）属于恶意、无聊、灌水范畴的讨论式内容；\n
+        （8）内容包含有严重影响网友浏览的内容或格式；\n
+        （9）短时间内多次重复的发表；\n
+        （10）明显抄袭复制他人内容；\n
+        （11）其他北京福乐云检测科技有限公司认为不恰当的情况；\n
+        （12）北京福乐云检测科技有限公司对协议内容拥有最终解释权。\n
+        服务内容\n
+        1.咨询服务条款\n
+        1.1本条款所称“咨询”特指用户通过本客户端提交的咨询信息和通过预约特定医生的电话咨询，咨询的交互主体为本客户端的用户和药管家APP平台介绍的医生。\n
+        1.2如服务在进行过程中由于药管家APP平台性能不稳定等系统原因导致服务不能完成的，将由药管家APP平台客服为您安排重新咨询服务。\n
+        1.3咨询均只限于根据用户的主观描述，医生尽可能利用医学知识及临床经验给予一定的解惑及如何就医方面的建议，不保证满足用户要求的诊断、治疗方面的建议一定能获得。不对结果是否符合用户预期做保证。\n
+        1.4咨询过程中医生所提供内容均是个人建议，不得做为诊断、治疗的直接医疗处置依据，用户需知晓并同意诊断及治疗均需前往医院。擅自将医生建议做为处方使用的，后果自负，与医生及北京福乐云检测科技有限公司无关。\n
+        1.5用户在咨询过程中要语言文明，尊重医生，平等交流。如有对医生恶意中伤，语言不文明，医生有权立即中断服务，用户无权要求退款。\n
+        1.6电话咨询过程中遇到医生有紧急事情处理时（医生职业要求），要给予理解，暂停咨询，向药管家APP平台客服申报，以便安排重新咨询的具体时间。\n
+        2.咨询服务中药管家APP平台与用户双方的权利及义务\n
+        2.1药管家APP平台有义务在现有技术上维护平台服务的正常进行，并努力提升技术及改进技术，使网站服务更好进行。\n
+        2.2药管家APP平台必须保证提供咨询服务的医生是本客户端介绍的医生本人提供咨询服务。\n
+        2.3对于用户在本客户端预定服务中的不当行为或其它任何药管家APP平台认为应当终止服务的情况，药管家APP平台有权随时作出删除相关信息、终止服务提供等处理，而无须征得用户的同意。如存在下列情况：\n
+        2.3.1用户或其它第三方通知药管家APP平台，认为某个具体用户或具体交易事项可能存在重大问题；\n
+        2.3.2用户或其它第三方向药管家APP平台告知咨询内容有违法或不当行为的，药管家APP平台以普通非专业的知识水平标准对相关内容进行判别，可以明显认为这些内容或行为具有违法或不当性质的。\n
+        2.3.3 药管家APP平台有义务对相关数据、所有的申请行为以及与咨询有关的其它事项进行审查。\n
+        2.3.4 药管家APP平台有权根据不同情况选择保留或删除相关信息或继续、停止对该用户提供服务，并追究相关法律责任。\n
+        2.3.5咨询双方因服务引起的纠纷，请药管家APP平台给予调解的，药管家APP平台将有权了解相关信息，并将双方提供的信息与对方沟通。因在药管家APP平台上发生服务纠纷，引起诉讼的，用户通过司法部门或行政部门依照法定程序要求药管家APP平台提供相关数据，药管家APP平台应积极配合并提供有关资料。\n
+        2.3.6 药管家APP平台有权对用户的注册数据及电话咨询的行为进行查阅，发现注册数据或咨询行为中存在任何问题或怀疑，均有权向用户发出询问及要求改正的通知或者直接作出删除等处理。\n
+        2.3.7药管家APP平台当用户顺利使用完付费咨询服务后不得因为咨询服务中的内容不满意要求退款。\n
+        2.3.8用户对咨询内容不满意，可以向 药管家APP平台提出投诉，药管家APP平台有义务依据情况协调沟通，维护医生和用户关系和谐。\n
+        2.3.9系统因下列状况无法正常运作，使用户无法使用电话咨询服务时，药管家APP平台不承担损害赔偿责任，该状况包括但不限于：\n
+        （1）药管家APP平台在本网站公告之系统停机维护期间；\n
+        （2）电信设备出现故障不能进行数据传输的；\n
+        （3）因台风、地震、海啸、洪水、停电、战争、恐怖袭击等不可抗力之因素，造成系统障碍不能执行业务的；\n
+        （4）由于黑客攻击、电信部门技术调整或故障、银行方面的问题等原因而造成的服务中断或者延迟。\n
+        用户终止\n
+        您可以随时删除您的药管家APP平台账号ID和/或停用本服务。您在终止前已支付的任何费用不可退还（本协议另行明确允许的除外），其中包括为您终止帐户所在的收费年度预付的任何费用。终止您的帐户并不免除您支付任何已发生的收费或费用的义务。\n
+        1.药管家APP平台终止
+        药管家APP平台可随时在某些情况下，不需事先通知，立即终止或暂停您所有或部分帐户和/或对本服务的访问。此类终止的原因包括\n
+        1.1违反本协议或本协议中引用和/或在本服务中发布的任何其他政策或指引；\n
+        1.2您要求取消或终止您的帐户；\n
+        1.3执法、司法机构或其他政府机构要求和/或命令；\n
+        1.4向您提供本服务是或可能是非法的；\n
+        1.5突发的技术或安全问题；\n
+        1.6您参与诈骗或非法活动；\n
+        1.7您未支付您就本服务所欠的任何费用，是否终止或暂停完全由药管家APP平台自行决定，而且对于因您的帐户和/或对本服务的访问被终止或暂停所导致或产生的任何损害，药管家APP平台不会对您或任何第三方承担任何责任。此外，在下列情况下，药管家APP平台还可通过事先经由电子邮件发送通知至与您的帐户相关联的地址来终止您的帐户：\n
+        1.7.1您的帐户处于不活动状态达3个月；\n
+        1.7.2本服务或其任何部分发生总体中断或重大变更。是否终止或暂停完全由药管家APP平台自行决定，而且对于因您的帐户和/或对本服务的访问被终止或暂停所导致或产生的任何损害，药管家APP平台不会对您或任何第三方承担任何责任，但药管家APP平台将按比例退还预付的任何费用或款项。\n
+        2.终止的效力\n
+        一旦您的帐户被终止，您可能无法访问本服务及其任何部分，包括但不限于您的帐户、药管家APP平台ID、电子邮件帐户和内容。此外，药管家APP平台将在一定时间后可能删除储存在您帐户中或作为您帐户之一部分的信息及资料。根据单独的软件许可协议使用的本服务的任何单个组成部分也将根据该等许可协议终止。\n
+        免责声明:\n
+        如发生下述情形，药管家APP平台和智能电子药盒产品不承担任何法律责任\n
+        1.依据法律规定或相关政府部门的要求提供您的个人信息；\n
+        2.由于您的使用不当或其他自身原因而导致任何个人信息的泄露；\n
+        3.由于您的操作不当或者监管不力,有人将对人体有害的药物或者化合物放入到药盒内.导致用药服药错误,出现的任何后果；\n
+        4.由于人为原因将错误的药物放入到药盒中,导致用户服药后出现的任何不良反应及后果；\n
+        5.任何由于黑客攻击，电脑病毒的侵入，非法内容信息、骚扰信息的屏蔽，政府管制以及其他任何网络、技术、通信线路、信息安全管理措施等原因造成的服务中断、受阻等不能满足用户要求的情形；\n
+        6.用户因第三方如运营商的通讯线路故障、技术问题、网络、电脑故障、系统不稳定及其他因不可抗力造成的损失的情形；\n
+        7.使用药管家APP平台服务可能存在的来自他人匿名或冒名的含有威胁、诽谤、令人反感或非法内容的信息而招致的风险\n
+        8.本网站明文声明，不以明示、默示或以任何形式对药管家APP平台及其合作公司服务之及时性、安全性、准确性做出担保。\n
+        通知\n
+        您必须提供您最近经常使用的有效电子邮件地址。您所提供的电子邮件地址无法使用或因任何原因我们无法使用或任何原因我们无法将通知送达给您而产生的风险，药管家APP平台不承担责任。药管家APP平台发布的公告通知及向您所发送的包含此类通知的电子邮件毫无疑问构成有效通知。\n
+        适用法律\n
+        1.本协议适用中华人民共和国法律\n
+        2.如果双方发生纠纷，应本着友好的原则协商解决；如协商不成，应向北京福乐云检测科技有限公司所在地的法院提起诉讼\n
+        所有权及知识产权条款\n
+        1.用户一旦接受本协议，即表明该用户主动将其在任何时间段在本客户端发表的任何形式的信息内容（包括但不限于客户评价、客户咨询、各类话题文章等信息内容）的财产性权利等任何可转让的权利，如著作权财产权（包括并不限于：复制权、发行权、出租权、展览权、表演权、放映权、广播权、信息网络传播权、摄制权、改编权、翻译权、汇编权以及应当由著作权人享有的其他可转让权利），全部独家且不可撤销地转让给药管家APP平台所有，用户同意药管家APP平台有权就任何主体侵权而单独提起诉讼。\n
+        2.本协议已经构成《中华人民共和国著作权法》第二十五条（条文序号依照2011年版著作权法确定）及相关法律规定的著作财产权等权利转让书面协议，其效力及于用户在药管家客户端上发布的任何受著作权法保护的作品内容，无论该内容形成于本协议订立前还是本协议订立后。\n
+        3.用户同意并已充分了解本协议的条款，承诺不将已发表于本客户端的信息，以任何形式发布或授权其它主体以任何方式使用（包括但限于在各类网站、媒体上使用）。\n
+        4.北京福乐云检测科技有限公司是本客户端的制作者，拥有此客户端内容及资源的著作权等合法权利，受国家法律保护，有权在未经用户同意的情况下地对本协议及本客户端的内容进行修改，并在本客户端张贴，无须另行通知用户。在法律允许的最大限度范围内，北京福乐云检测科技有限公司对本协议及本客户端内容拥有解释权。\n
+        5.除法律另有强制性规定外，未经北京福乐云检测科技有限公司明确的特别书面许可，任何单位或个人不得以任何方式非法地全部或部分复制、转载、引用、链接、抓取或以其他方式使用本客户端的信息内容，否则，北京福乐云检测科技有限公司有权追究其法律责任。\n
+        6.本客户端所刊登的资料信息（诸如文字、图表、标识、按钮图标、图像、声音文件片段、数字下载、数据编辑和软件），均是北京福乐云检测科技有限公司或其内容提供者的财产，受中国和国际版权法的保护。本客户端上所有内容的汇编是北京福乐云检测科技有限公司的排他财产，受中国和国际版权法的保护。本客户端上所有软件都是北京福乐云检测科技有限公司或其关联公司或其软件供应商的财产，受中国和国际版权法的保护\n
+        北京福乐云检测科技有限公司对《药管家APP用户使用协议》享有最终解释权。\n
+        \n
+        <b>隐私政策：</b>\n
+        药管家APP平台与您是在诚实信用地基础上签订的《药管家APP用户使用协议》。为了向您提供更好更优质的服务，药管家APP平台不可避免地需要您提供相关的个人信息，为了保护您的个人信息的安全性及隐私性，同时鉴于互联网的特性，北京福乐云检测科技有限公司将实施以下政策来保护您的隐私：\n
+        一、个人信息的收集和使用\n
+        任何时候您与药管家APP平台或北京福乐云检测科技有限公司关联公司联系，都可能会要求您提供个人信息。北京福乐云检测科技有限公司及其关联公司可以共享这些个人信息，并按本隐私保护政策使用这些信息。北京福乐云检测科技有限公司及其关联公司还可将这些信息与其他信息结合起来，用于提供和改进我们的服务、内容。同时，为了向您提供更好的用户服务及及时回应您遇到的问题,药管家APP平台会在您自愿选择服务或提供信息的情况下系统自动存储注册信息。请您在注册时及时、详尽及准确的提供个人资料，并不断更新注册资料。所有原始键入的资料将引用为注册资料。如果因注册信息不真实而引起的问题，由您自行承担相应的后果。\n
+        二、因您使用服务获取的信息\n
+        1.当您创建药管家APP平台ID、下载软件更新及提供相关就医信息、联系我们、参与在线调查或邀请其他朋友使用药管家APP平台提供的服务时，我们可能会收集的信息有您及您朋友的姓名、年龄、联系方式、电子邮件地址等身份证明信息。我们可能会使用您的个人信息（例如出生日期）来验证身份、协助识别用户，以及确定适当的服务。药管家APP平台将用此类信息来满足您的需求，提供更好的服务，或实现反欺诈的目的。\n
+        2.当您使用药管家APP平台提供的服务时，服务器会自动记录一些信息，例如您对我们服务的使用情况、IP地址、所访问服务的URL、浏览器的类型和使用的语言以及访问日期和时间等。\n
+        3.某些服务包含唯一应用程序编号，当您安装、激活、更新、卸载相关服务时，系统会将此编号以及与安装相关的信息（例如操作系统类型和应用程序版本号）发送给药管家APP平台。
+        为了对不同型号的设备提供更好的服务与体验改善，药管家APP平台会记录硬件型号、操作系统版本号、手机的国际移动设备身份码（IMEI）、手机的网络设备的硬件地址（MAC）等信息。\n
+        4.
+        Cookie和匿名标示符等工具。cookie主要的功能是便于您使用网站服务，以及帮助网站统计独立访客数量等。运用cookie技术，药管家APP平台能够为您提供更加周到的个性化服务，并允许您设定您特定的服务选项。
+        当您使用药管家APP平台提供的服务时，药管家APP平台会向您的设备发送cookie。当您与我们提供给合作伙伴的服务（例如广告和/或推广服务，以及可能显示在其他网站上的由药管家APP平台提供的服务功能）进行交互时，我们允许cookie或者匿名标识符发送给药管家APP平台网站服务器。
+        您可以选择拒绝 cookie。您可以通过修改浏览器设置的方式拒绝cookie。如果您选择拒绝cookie，则您可能无法登录或使用依赖于cookie
+        的药管家APP平台网站服务或功能。\n
+        5.以上数据信息都采用匿名的方式。同时，我们也会对信息采取加密处理，保证信息的安全性。\n
+        三、信息使用\n
+        1. 通过使用收集的信息，药管家APP平台会得以向您提供个性化的服务，上述信息还可以帮助北京福乐云检测科技有限公司改进药管家APP平台提供的服务，并用于开发新的服务。\n
+        2. 药管家APP平台会以高度的勤勉义务对待这些信息，除非事先获得您的授权或本声明另有规定外，不会将这些信息对外公开或向第三方提供（北京福乐云检测科技有限公司关联公司除外）。\n
+        3.药管家APP平台可能会与合作伙伴共同向您提供您所要求的服务或者共同向您展示您可能感兴趣的内容。在信息为该项服务所必须使用到的情况下，您同意药管家APP平台可与其分享必要的信息。并且，药管家APP平台会要求其确保数据安全并且禁止用于任何其他用途。除此之外，药管家APP平台不会向任何无关第三方提供或分享信息。\n
+        4.药管家APP平台可能会对服务使用情况进行统计。同时，药管家APP平台可能会与公众分享这些统计信息，以展示我们服务的整体使用趋势。这些统计信息不包含您的任何身份识别信息。\n
+        5. 在如下情况下，药管家APP平台可能会披露您的信息：\n
+        （1）事先获得您的授权；\n
+        （2）您使用共享功能；\n
+        （3）根据法律、法规、法律程序的要求或政府主管部门的强制性要求；\n
+        （4）以学术研究或公共利益为目的；\n
+        （5）为维护药管家APP平台的合法权益，例如查找、预防、处理欺诈或安全方面的问题；\n
+        （6）符合相关服务条款或使用协议的规定。\n
+        四、未成年人信息保护\n
+        药管家APP平台非常重视对未成年人信息的保护。若您是18周岁以下的未成年人，在使用药管家APP平台提供的服务前，应事先取得您的家长或法定监护人的同意。未成年人未经取得可以核证的父母同意，我们不会在知情的情况下，收集、使用或披露获取自18岁以下或相关司法管辖区的同等最低年龄限制的人士之个人资料。\n
+        五、修订\n
+        药管家APP平台随时会对本隐私权保护声明进行修订。药管家APP平台会在网页中显著的位置予以发布。\n
+    </string>
+
+    <string name="Notification_Message">
+        <u>测试人名</u>
+    </string>
+    <string name="NM_time">
+        <u>07:10</u>
+    </string>
+    <string name="NM_minuter">
+        <u>15</u>
+    </string>
+
+    <string name="MON">周一</string>
+    <string name="TUE">周二</string>
+    <string name="WED">周三</string>
+    <string name="THU">周四</string>
+    <string name="FRI">周五</string>
+    <string name="SAT">周六</string>
+    <string name="SUN">周日</string>
+
+    <string name="MON_X">星期一</string>
+    <string name="TUE_X">星期二</string>
+    <string name="WED_X">星期三</string>
+    <string name="THU_X">星期四</string>
+    <string name="FRI_X">星期五</string>
+    <string name="SAT_X">星期六</string>
+    <string name="SUN_X">星期日</string>
+
+    <string name="EVE">每天</string>
+    <string name="repetition_period">自定义重复周期</string>
+    <string name="medical_home">药管家</string>
+    <string name="today">今天</string>
+    <string name="phone_err">号码不正确</string>
+    <string name="reRegister">重新注册</string>
+    <!--wifi-->
+
+    <string name="box_gsm">1.请确认当前药盒的流量套餐在有效期内\n2.打开智能药盒当时间自动更新后请点击下一步</string>
+    <string name="box_gsm_main">1.尝试重启智能药盒\n2.请确认当前药盒的流量套餐在有效期内</string>
+    <string name="wifi_propy">1.请在智能药盒5米有效范围内操作\n2.请确保您的手机已经连接到Wi-Fi网络\n3.如果智能药盒已连接网络请跳过此设置界面
+    </string>
+    <string name="tv_verify_prompt">请输入药盒底部铭牌上的产品ID及SN码</string>
+    <string name="wifi_prompt_dialog">
+       1.听见嘀声后,表示药盒网络连接成功.\n2.如网络连接失败,请检查密码是否输入正确
+    </string>
+    <string name="add_box_ok">绑定成功</string>
+    <string name="add_box_error">网络错误或未按下药盒</string>
+    <string name="add_box_retry">重试</string>
+    <string name="add_box_connection">正在连接中…</string>
+    <string name="remove_box_error">解除药盒失败！</string>
+    <string name="read_complete_info">请填写完整使用者信息</string>
+    <string name="info_not_null">填写信息不能为空</string>
+    <string name="call_no_phone">未填写手机号，现在添加吗？</string>
+    <string name="entry_phone_ok">请正确输入手机号码</string>
+    <string name="box_id_no_info">此药盒id无对应使用者信息</string>
+    <string name="make_sure_exit">确定要退出当前账号吗?</string>
+    <string name="connection_error">连接失败~</string>
+    <string name="box_gsm_title">GSM网络连接</string>
+    <string name="login_no_long">由于你长期未登陆药管家App,请重新登陆!</string>
+    <string name="i_know_it">我知道了</string>
+    <string name="user_name_error">用户名或密码输入错误!</string>
+    <string name="longin_retry">重新登录</string>
+    <string name="longin_succeed">登录成功</string>
+    <string name="net_no_connected">当前无网路，请确保网络正常连接</string>
+    <string name="logining">登录中…</string>
+    <string name="box_has_removed">当前药盒已解除绑定，请切换药盒</string>
+    <string name="box_unline">当前药盒已离线，请检查药盒工作状态.</string>
+    <string name="net_connected">网络连接</string>
+    <string name="entry_again_to_exit">再按一次退出程序</string>
+    <string name="submit_error">提交失败或网络出错</string>
+    <string name="submit_ok">提交成功</string>
+    <string name="make_sure_id_ok">请确保已输入ID或SN码</string>
+    <string name="has_been_bound">此药盒在当前账号下已经绑定</string>
+    <string name="code_not_matched">ID和SN码不匹配,请输入正确码</string>
+    <string name="regist_fail_phone_error">注册失败，手机号码格式不正确</string>
+    <string name="regist_fail_only_letter">注册失败，只包含字母数字和下划线</string>
+    <string name="regist_fail_phone_exist">注册失败，手机号码已注册</string>
+    <string name="regist_fail_password_long">操作失败，密码长度不能少于6位</string>
+    <string name="regist_fail_password_error">注册失败，密码格式不正确</string>
+    <string name="regist_fail_email_error">注册失败，邮箱格式不对</string>
+    <string name="regist_fail_error">注册失败，未知错误</string>
+    <string name="regist_fail_user_error">注册失败，用户名长度不能少于4位</string>
+    <string name="regist_fail_email_exist">注册失败，邮箱已注册</string>
+    <string name="two_password_consistent">两次密码输入不一致</string>
+    <string name="regist_loading">注册中…</string>
+    <string name="regist_fail_code_error">注册失败，验证码不正确</string>
+    <string name="regist_fail_code_overdue">注册失败，验证码过期</string>
+    <string name="regist_fail_phone_overdue">注册失败，号码已注册</string>
+    <string name="regist_code_success">验证码发送成功</string>
+    <string name="regist_code_retry">验证码发送,60s后手动重发</string>
+    <string name="regist_success">注册成功</string>
+    <string name="account_information_lost">账号丢失,请返回重新注册</string>
+    <string name="incorrect_verify_code">验证码填写有误</string>
+    <string name="submit_ok_email">成功提交，去邮箱修改</string>
+    <string name="exit_dialog">退出</string>
+    <string name="delete_is_exit">删除对应时间段数据失败,是否退出当前页</string>
+    <string name="set_medication_time">请先设置好时间~</string>
+    <string name="reminder">温馨提示</string>
+    <string name="time_setting_failed">时间设定无效，未添加药物信息！</string>
+    <string name="update_title">有最新版本，请更新!</string>
+    <string name="software_size">软件大小：</string>
+    <string name="version">版本号：</string>
+    <string name="update_description">更新描述：</string>
+    <string name="software_update">软件更新</string>
+    <string name="download">下载</string>
+    <string name="exit_dialog_system">退出程序</string>
+    <string name="update_message">当前处于移动网络，继续更新会产生手机流量</string>
+    <string name="connecting">连接中…</string>
+    <string name="skip">跳过</string>
+    <string name="set_network_connection">设置网络连接</string>
+    <string name="select_wireless">请选择wifi，确保wifi已连接上</string>
+    <string name="wireless_connection">可连接无线网络</string>
+    <string name="unprotected_network">未受保护的网络</string>
+    <string name="connected">已连接</string>
+    <string name="through">通过</string>
+    <string name="to_protect">进行保护</string>
+    <string name="switch_and_delete">此为当前药盒，请切换后删除</string>
+    <string name="delete_box">确定要删除此药盒吗</string>
+    <string name="delete">删除</string>
+    <string name="scan_qr">二维码扫描</string>
+    <string name="scan_error">相机打开出错,可能是摄像头权限被关闭，请到设置中开启重试</string>
+    <string name="set_medic_count">请设置好药物剂量数</string>
+    <string name="set_medic_exist">此药物已经存在，请删除再添加</string>
+    <string name="no_add_medic">此时段未添加药物</string>
+
+    <string name="such_as_graphic">如图示</string>
+    <string name="tv_warning_1">1.药管家GSM版智能药盒在第一次开机激活网络时，可能需要几十秒钟.\n2.当激活成功后智能药盒上的时钟会更新为当前网络时间.\n3.请您耐心等待…</string>
+    <string name="tv_warning_2">绑定药盒:\n1.网络激活成功后，请登录药管家APP输入药盒底部铭牌上的产品ID和SN码.\n2.点击app里的下一步后，长按智能药盒上的“AT”键，在嘀声后松开.</string>
+    <string name="tv_warning_3">录制自定义提醒铃声:\n1.长按智能药盒上的“REC”键嘀声后开始录音，支持最多10秒的录音时长.\n2.长按智能药盒上的“DEL”键在嘀声后会删除上一段录音.</string>
+    <string name="not_take_on_time">未按时服药通知</string>
+    <string name="tv_updating">正在获取最新版本信息…</string>
+    <string name="bed_time_eve">睡前</string>
+    <string name="reback">返回</string>
+
+    <string-array name="spinner_wifi_smart_mode" translatable="false">
+        <item>AI-LINK</item>
+        <item>ESP-TOUCH</item>
+    </string-array>
+</resources>

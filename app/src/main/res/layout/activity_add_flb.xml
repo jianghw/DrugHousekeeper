@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/btn_textColor"
+                tools:context="com.cjy.flb.activity.AddFlbActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/topbar_one"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/include"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/such_as_graphic"
+        android:textColor="@color/body_text_color"
+        android:textSize="?attr/fontsize_2"/>
+
+    <LinearLayout
+        android:id="@+id/ll_imagView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/include"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/at_show"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ll_imagView"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="8dp"
+        android:text="@string/add_medicine_ac"
+        android:textColor="@color/et_hint_prompt"/>
+
+    <Button
+        android:id="@+id/btn_addFlb"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/row_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_prompt"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_green_selector"
+        android:text="@string/next"
+        android:textColor="@color/btn_textColor"
+        android:textSize="@dimen/btn_textSize"/>
+
+    <TextView
+        android:id="@+id/tv_addFlb_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/tv_bottom_unregist"
+        android:textSize="@dimen/textView_textSize"/>
+
+</RelativeLayout>

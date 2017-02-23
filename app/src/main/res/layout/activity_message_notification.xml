@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:mapp="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/main_bground"
+              android:orientation="vertical">
+    <include
+        android:id="@+id/include"
+        layout="@layout/topbar_one"/>
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="@dimen/row_height"
+                    android:layout_marginTop="8dp"
+                    android:background="@color/btn_textColor"
+                    android:gravity="center_vertical">
+        <TextView style="@style/body_text"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_centerVertical="true"
+                  android:layout_marginLeft="8dp"
+                  android:text="@string/receiving_message"
+                  android:textColor="@color/body_text_color"/>
+
+        <com.cjy.flb.customView.SlideSwitch android:id="@+id/switch_inform"
+                                            android:layout_width="48dp"
+                                            android:layout_height="24dp"
+                                            android:layout_alignParentRight="true"
+                                            android:layout_marginBottom="8dp"
+                                            android:layout_marginRight="16dp"
+                                            android:layout_marginTop="8dp"
+                                            mapp:isOpen="false"
+                                            mapp:shape="circle"
+                                            mapp:themeColor="#45c01a"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="@dimen/row_height"
+                    android:layout_marginTop="2dp"
+                    android:background="@color/btn_textColor"
+                    android:gravity="center_vertical">
+        <TextView style="@style/body_text"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_centerVertical="true"
+                  android:layout_marginLeft="8dp"
+                  android:text="@string/sound"
+                  android:textColor="@color/body_text_color"/>
+
+        <com.cjy.flb.customView.SlideSwitch android:id="@+id/switch_sound"
+                                            android:layout_width="48dp"
+                                            android:layout_height="24dp"
+                                            android:layout_alignParentRight="true"
+                                            android:layout_marginBottom="8dp"
+                                            android:layout_marginRight="16dp"
+                                            android:layout_marginTop="8dp"
+                                            mapp:isOpen="false"
+                                            mapp:shape="circle"
+                                            mapp:themeColor="#45c01a"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="@dimen/row_height"
+                    android:layout_marginTop="2dp"
+                    android:background="@color/btn_textColor"
+                    android:gravity="center_vertical">
+        <TextView style="@style/body_text"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_centerVertical="true"
+                  android:layout_marginLeft="8dp"
+                  android:text="@string/vibrate"
+                  android:textColor="@color/body_text_color"/>
+
+        <com.cjy.flb.customView.SlideSwitch android:id="@+id/switch_shock"
+                                            android:layout_width="48dp"
+                                            android:layout_height="24dp"
+                                            android:layout_alignParentRight="true"
+                                            android:layout_marginBottom="8dp"
+                                            android:layout_marginRight="16dp"
+                                            android:layout_marginTop="8dp"
+                                            mapp:isOpen="false"
+                                            mapp:shape="circle"
+                                            mapp:themeColor="#45c01a"/>
+    </RelativeLayout>
+</LinearLayout>
